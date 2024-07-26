@@ -47,6 +47,8 @@ Un diagrama de flujo es una representación gráfica de un algoritmo. Los diagra
 - **Comentario o nota**: Este símbolo, empleado junto con contexto, agrega una explicación o comentarios necesarios dentro de un rango específico. También puede conectarse mediante una línea discontinua a la sección correspondiente del diagrama de flujo.
     <div align="center"><img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/flowchart-symbols-meaning-explained/note_symbol-60x80.PNG" width="100"/></div>
 
+Para más información puedes encontrarla en el siguiente [enlace](https://www.lucidchart.com/pages/es/simbolos-comunes-de-los-diagramas-de-flujo).
+
 ## Ejemplo de diagrama de flujo
 El siguiente diagrama de flujo es un ejemplo de un diagrama de flujo para calcular la suma entre dos números.
 
