@@ -22,7 +22,7 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
 ### Unidades del Laboratorio
 - [`☕️ Unidad 1:`](./Unidad1) Introducción a Python
   - [⭐️ Clase 1](./Unidad1/Clase01/)
-  - [🌟 Clase Extra 1](./Unidad1)
+    - [🌟 Clase Extra 1](./Unidad1)
 
 ## 👤Contacto
 

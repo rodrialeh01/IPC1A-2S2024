@@ -58,7 +58,7 @@ En esta clase se dió la continuación a la explicación de métodos y funciones
 - Pseudocódigo
 
 ### 🎥 Grabación de la Clase
-**Clase Extra 1**: []()
+**Clase Extra 1**: [https://drive.google.com/file/d/1h2M45PxY4ettaV_b-0dGeZE7fGdwo6-S/view?usp=sharing](https://drive.google.com/file/d/1h2M45PxY4ettaV_b-0dGeZE7fGdwo6-S/view?usp=sharing)
 
 ### 💻 Código de la Clase
 
