@@ -1,0 +1,9 @@
+codigo,nombre,patron
+PQ-1,Gripe,0;0;1;1
+PQ-2,Resfrio,0;1;0;1
+PQ-3,Neumonia,1;0;0;1
+PQ-4,Influenza,0;1;0;0
+PQ-5,Coronavirus,1;0;1;1
+PQ-6,COVID-19,0;1;1;0
+PQ-7,SARS,1;0;0;0
+PQ-8,MERS,0;1;0;1

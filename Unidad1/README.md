@@ -137,3 +137,119 @@ FinProceso
 ```
 
 Tambien puedes usar el archivo para abrirlo en PSeInt que está en [EjemploPseint/Ingreso_nota_estudiantes.psc](./EjemploPseint/Ingreso_nota_estudiantes.psc)
+
+## ⭐️ Clase 2: Manejo de Memoria y archivos de texto plano
+
+_Fecha: 02-08-2024_
+
+En esta clase se explicará el manejo de memoria en Java, además de la creación, lectura, escritura y cierre de archivos de texto plano.
+
+### Contenido
+- Memoria
+- Memoria estática
+	- Arreglos
+	- Matrices
+- Memoria dinámica
+    - LinkedList
+	- ArrayList
+- Manejo de Archivos
+	- Creación
+	- Lectura
+	- Escritura
+	- Cierre
+
+### 🎥 Grabación de la Clase
+**Clase 2**: []()
+
+### 💻 Código de la Clase
+
+Lo puedes encontrar en:  [Clase02](./Clase02)
+
+Puedes encontrar más contenido acerca del manejo de memoria en el siguiente [enlace](./ManejoDeMemoria.md).
+
+También puedes encontrar una parte explicada del manejo de archivos en el siguiente [enlace](./ManejoDeArchivos.md).
+
+## 🌟 Explicación Extra 2: Libreria Random
+
+En esta clase se dió una explicación del funcionamiento de la libreria random.
+
+### Contenido
+- Libreria Random
+- Generación de números aleatorios en un rango específico
+
+### 🎥 Grabación de la Clase
+**Explicación Extra 1**: [https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing](https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing)
+
+### 💻 Código de la Clase
+
+```java
+
+import java.util.Random;
+/**
+ *
+ * @author rodri
+ */
+public class Extra {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int num_inicio = 2;
+        int num_final = 13;
+        //RANDOM = FINAL-INICIO +1 = 13-2 = 11+1 0,1,2,3,4,5,6,7,8,9,10,11
+        //RANDOM = 0
+        // 0+2
+        //2
+        int numrandom = new Random().nextInt(num_final - num_inicio +1) + num_inicio;
+    }
+    
+}
+
+```
+
+### Explicación del código anterior
+
+En el código anterior se muestra como se puede generar un número aleatorio en un rango específico, en este caso se generará un número aleatorio entre 2 y 13.
+
+```java
+int num_inicio = 25;
+int num_final = 35;
+```
+
+Luego se aplica una formula del rango de numeros aleatorios:
+
+```java
+int formula = num_inicio - num_final +1
+```
+
+Esto quiere decir que hará lo siguiente: generar numeros aleatorios sin incluir el num_final osea: `num_inicio - num_final`, pero agregamos el `+1` para que incluya el num_final.
+
+Para este caso la formula daría lo siguiente:
+
+```java
+int formula = 35 - 25 + 1
+```
+
+```java
+int formula = 11
+```
+
+Y como se puede apreciar, el 11 no esta dentro del rango entre 35 y 25, entonces procede a hacerse lo siguiente:
+
+```java
+int numrandom = new Random().nextInt(formula);
+```
+Esto quiere decir que el programa generará un número aleatorio desde 0 hasta que sea menor que 11.
+
+```java
+int numrandom = new Random().nextInt(formula) + num_inicio;
+```
+Esto quiere decir que el programa generará un número aleatorio desde 0 hasta que sea menor que 11 y luego le sumará el num_inicio, entonces el número aleatorio generado estará entre 25 y 35.
+
+Ejemplo:
+
+```java
+int numrandom = new Random().nextInt(11) + 25;
+```
+Esto generará un número aleatorio entre 25 y 35.
