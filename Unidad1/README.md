@@ -159,7 +159,7 @@ En esta clase se explicará el manejo de memoria en Java, además de la creació
 	- Cierre
 
 ### 🎥 Grabación de la Clase
-**Clase 2**: []()
+**Clase 2**: [https://drive.google.com/file/d/1HTsUnJFGtsMBhVI5j1UPJQbPCgLQ-7Z8/view?usp=sharing](https://drive.google.com/file/d/1HTsUnJFGtsMBhVI5j1UPJQbPCgLQ-7Z8/view?usp=sharing)
 
 ### 💻 Código de la Clase
 
@@ -178,7 +178,7 @@ En esta clase se dió una explicación del funcionamiento de la libreria random.
 - Generación de números aleatorios en un rango específico
 
 ### 🎥 Grabación de la Clase
-**Explicación Extra 1**: [https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing](https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing)
+**Explicación Extra 2**: [https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing](https://drive.google.com/file/d/1CyQUt1h6gzZjUkhxDowLpFTz618M8cL2/view?usp=sharing)
 
 ### 💻 Código de la Clase
 
