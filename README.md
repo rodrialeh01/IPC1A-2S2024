@@ -20,10 +20,14 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
 ## 🚀 Navegación
 
 ### Unidades del Laboratorio
-- [`☕️ Unidad 1:`](./Unidad1) Introducción a Python
+- [`☕️ Unidad 1:`](./Unidad1) Introducción a Java
   - [⭐️ Clase 1](./Unidad1/Clase01/)
     - [🌟 Clase Extra 1](./Unidad1)
   - [⭐️ Clase 2](./Unidad1/Clase02/)
+- [`😼 Unidad 2:`](./Unidad2) Versionamiento
+  - [⭐️ Clase 3](./Unidad2/)
+- [`🐞 Unidad 3:`](./Unidad3) Manejo de errores y debugging
+  - [⭐️ Clase 3](./Unidad3/)
 
 ## 👤Contacto
 
