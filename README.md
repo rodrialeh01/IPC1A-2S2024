@@ -30,7 +30,7 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
   - [⭐️ Clase 3](./Unidad3/)
 - [`👾 Unidad 4:`](./Unidad4) Programación Orientada a Objetos
   - [⭐️ Clase 4](./Unidad4/Clase4/)
-- [`💻 Unidad 5:`](./Unidad5/)
+- [`💻 Unidad 5:`](./Unidad5/) Interfaces Gráficas en JAVA
   - [🌟 Clase Extra 2](./Unidad5/Extra2/)
 
 ## 👤Contacto

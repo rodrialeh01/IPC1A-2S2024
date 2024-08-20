@@ -32,6 +32,10 @@ En esta clase se abordaron los temas de la programación orientada a objetos, la
 - Ejemplos de clases y objetos
 - Listas de Objetos
 
+### 📚 Material de Apoyo:
+
+- [Markdown explicando POO](./POO.md)
+
 ### 🎥 Grabación de la Clase
 
 **Clase 4**: [https://drive.google.com/file/d/1vqVRmIDDhgTBfTchrGwcC5DFVpg7WeP9/view?usp=sharing](https://drive.google.com/file/d/1vqVRmIDDhgTBfTchrGwcC5DFVpg7WeP9/view?usp=sharing)

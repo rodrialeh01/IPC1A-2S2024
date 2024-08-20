@@ -20,6 +20,10 @@ En esta clase se impartió las bases de creación de ventanas en java, creación
     - JTextField
     - JPasswordField
 
+### 📚 Material de Apoyo:
+
+- [Markdown explicando AWT y Swing](./AWTySWING.md)
+
 ### 🎥 Grabación de la Clase
 **Clase Extra 2**: [https://drive.google.com/file/d/1F1v7TZCjEoNMhdgngDT14X2qvmn59TNI/view?usp=sharing](https://drive.google.com/file/d/1F1v7TZCjEoNMhdgngDT14X2qvmn59TNI/view?usp=sharing)
 
