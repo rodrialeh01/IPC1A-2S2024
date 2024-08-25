@@ -23,6 +23,7 @@ public class VCrearDocumento extends JFrame implements ActionListener{
     JTextField tcodigo,tdescripcion;
     JButton bcrear, bcargar, bregresar;
     String codigo,descripcion;
+    int[][] matriz;
     Color morado_ejemplo = new Color(91, 58, 240);
 
     public VCrearDocumento() {
@@ -112,14 +113,16 @@ public class VCrearDocumento extends JFrame implements ActionListener{
         //OBTENGO LA INFO DE LOS TEXTFIELD
         codigo = tcodigo.getText();
         descripcion = tdescripcion.getText();
-        int[][] matriz = null;
+        
         
         if(e.getSource() == bcrear){
             //CREAR EL OBJETO DE TIPO DOCUMENTO
             Documento nuevo = new Documento(codigo, descripcion, "Ingreso");
+            
             if(matriz != null){
                 nuevo.setTexto(matriz);
                 Clase5.añadirDocumento(nuevo);
+                Clase5.crearArchivo(matriz, codigo, "ReportesDocumentos","Documento");
             }
             //DESTRUIR LA VENTANA ACTUAL
             this.dispose();

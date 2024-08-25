@@ -15,6 +15,7 @@ public class Analista {
     private String contrasenia;
     private String genero;
     private int cantidad_analisis;
+    private Documento documento_asignado;
 
     public Analista(String usuario, String nombre,String contrasenia, String genero) {
         this.usuario = usuario;
@@ -86,6 +87,14 @@ public class Analista {
 
     public void setContrasenia(String contrasenia) {
         this.contrasenia = contrasenia;
+    }
+
+    public Documento getDocumento_asignado() {
+        return documento_asignado;
+    }
+
+    public void setDocumento_asignado(Documento documento_asignado) {
+        this.documento_asignado = documento_asignado;
     }
     
     

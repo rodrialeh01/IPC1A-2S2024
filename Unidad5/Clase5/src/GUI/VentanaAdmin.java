@@ -16,6 +16,7 @@ public class VentanaAdmin extends JFrame implements ActionListener{
     //COLORES
     Color amarillo_ejemplo = new Color(209, 148, 15);
     Color cbotones = new Color(148, 210, 56);
+    JButton boton_salir;
     JPanel Panel;
     public VentanaAdmin() {
         
@@ -44,6 +45,24 @@ public class VentanaAdmin extends JFrame implements ActionListener{
         //PANEL DE COINCIDENCIAS
         PanelCoincidencia pc = new PanelCoincidencia(this);
         pestañas.addTab("Coincidencias", null,pc,"Pestaña de Coincidencias");
+        
+        //BOTON CERRAR SESIÓN
+        boton_salir = new JButton("Cerrar Sesión");
+        //FUENTE DEL BOTON DEL TEXTO
+        boton_salir.setFont(new Font("Century Gothic",Font.PLAIN,15));
+        //COORDENADAS DEL BOTON
+        boton_salir.setBounds(1150,0,150,30);
+        //AÑADIR EVENTO
+        boton_salir.addActionListener(this);
+        //QUE SEA VISIBLE
+        boton_salir.setVisible(true);
+        //COLOR DE FONDO AL BOTON
+        boton_salir.setBackground(cbotones);
+        //COLOR DEL TEXTO DEL BOTON
+        //boton_salir.setForeground(btext);
+        //AGREGA EL BOTON A LA VENTANA
+        this.add(boton_salir);
+        
         
         //SIEMPRE PERO SIEMPREEEEE EL DISEÑO DE LA VENTANA VA HASTA DE ULTIMO EN EL CONSTRUCTOR
         // DISEÑO DE LA VENTANA
@@ -74,7 +93,10 @@ public class VentanaAdmin extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         //LOGICA DE BOTONES Y ESO
-        
+        if(e.getSource() == boton_salir){
+            VLogin log = new VLogin();
+            this.dispose();
+        }
     }
     
 }

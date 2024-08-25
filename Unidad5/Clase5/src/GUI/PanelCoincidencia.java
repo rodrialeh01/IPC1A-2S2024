@@ -22,6 +22,7 @@ public class PanelCoincidencia extends JPanel implements ActionListener{
     static Object[][] datos;
     //ATRIBUTO DE LA VENTANA PADRE PARA PODER HACER CAMBIOS EN LA VENTANA
     VentanaAdmin va;
+    
     //EN EL CONSTRUCTOR SOLICITAMOS NUESTRA VENTANA PARE
     public PanelCoincidencia(VentanaAdmin va) {
         this.va = va;

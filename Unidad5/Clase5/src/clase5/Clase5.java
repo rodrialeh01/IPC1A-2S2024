@@ -15,10 +15,16 @@ import Clases.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.LinkedList;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
+import java.lang.Math;
+import javax.swing.JLabel;
+
+
 public class Clase5 {
 
     public static LinkedList<Analista> analistas = new LinkedList<Analista>();
@@ -31,8 +37,8 @@ public class Clase5 {
         VISTA = GUI
         CONTROLADOR = LÓGICA QUE CONECTA LAS CLASES CON EL GUI
         */
-       VentanaAdmin va = new VentanaAdmin();
-       //VLogin vl = new VLogin();
+       //VentanaAdmin va = new VentanaAdmin();
+       VLogin vl = new VLogin();
        //Ventana v = new Ventana();
        //v.setVisible(true);
     }
@@ -117,7 +123,9 @@ public class Clase5 {
             documentostabla[i][0] = documentos.get(i).getCodigo();
             documentostabla[i][1] = documentos.get(i).getDescripcion();
             documentostabla[i][2] = documentos.get(i).getEstado();
-            documentostabla[i][3] = "";
+            JLabel nuevo = new JLabel("Ver");
+            nuevo.setName("ReportesDocumentos/Documento_"+ documentos.get(i).getCodigo());
+            documentostabla[i][3] = nuevo;
         }
         return documentostabla;
     }
@@ -173,47 +181,166 @@ public class Clase5 {
     
     //-------------------- CARGAS DE DOCUMENTOS Y COINCIDENCIAS --------------------
     
-    public static int[][] csv_to_matrix(File archivo){
+    public static int[][] csv_to_matrix(File archivo) {
         FileReader fr = null;
         BufferedReader br = null;
-        int [][] data = null;
-        try{
+        int[][] data = null;
+        
+        try {
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
             
+            // Contar el número de filas y columnas
             String linea;
+            int filas = 0;
+            int columnas = 0;
+            
+            while ((linea = br.readLine()) != null) {
+                filas++;
+                String[] fila_numeros = linea.split(",");
+                columnas = fila_numeros.length;
+            }
+            
+            // Inicializar la matriz con el tamaño adecuado
+            data = new int[filas][columnas];
+            
+            // Volver al inicio del archivo para llenar la matriz
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
             int contador = 0;
             
-            while((linea = br.readLine()) != null){
-                System.out.println(linea);
+            while ((linea = br.readLine()) != null) {
                 String[] fila_numeros = linea.split(",");
-                data = new int[fila_numeros.length][fila_numeros.length];
                 for (int i = 0; i < fila_numeros.length; i++) {
-                    System.out.println(fila_numeros[i]);
-                    System.out.println("["+contador+"]"+"["+i+"] = " + Integer.parseInt(fila_numeros[i]));
                     data[contador][i] = Integer.parseInt(fila_numeros[i]);
-                    System.out.println(data[contador][i]);
                 }
                 contador++;
             }
             
+            // Imprimir la matriz
+            System.out.println("-----------------------------------------------");
             for (int i = 0; i < data.length; i++) {
                 for (int j = 0; j < data[i].length; j++) {
-                    System.out.println("["+i+"]"+"["+j+"] = " + data[i][j]);
+                    System.out.println("[" + i + "][" + j + "] = " + data[i][j]);
                 }
             }
             return data;
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally{
-            try{
-                if(fr != null){
+        } finally {
+            try {
+                if (fr != null) {
                     fr.close();
                 }
-            }catch(Exception e2){
+            } catch (Exception e2) {
                 e2.printStackTrace();
             }
         }
         return data;
+    }
+    
+    //ENTRADA: NUMERO;NUMERO;NUMERO;NUMERO...
+    public static int[][] ptc_to_matrix(String cadena_entrada){
+        String[] numeros = cadena_entrada.split(";");
+        //["1","7","2","4"]
+        
+        //obtenemos la raiz cuadrada
+        int dimension = (int) Math.sqrt(numeros.length);
+        /*
+        [1   7]
+        [2   4]
+        */
+        
+        //AGREGAMOS EL TAMAÑO DE LA MATRIZ
+        int [][] data_numeros = new int[dimension][dimension];
+        int contador1 = 0;
+        int contador3 = 0;
+        while(contador1 < dimension){
+            int contador2 = 0;
+            while(contador2 < dimension){
+                data_numeros[contador1][contador2] = Integer.parseInt(numeros[contador3]);
+                contador2++;
+                contador3++;
+            }
+            contador1++;
+        }
+        
+        System.out.println("-----------------------------------------------");
+        for (int i = 0; i < data_numeros.length; i++) {
+            for (int j = 0; j < data_numeros[i].length; j++) {
+                System.out.println("[" + i + "][" + j + "] = " + data_numeros[i][j]);
+            }
+        }
+        
+        return data_numeros;
+    }
+    
+    //ORDENAMIENTO DE ANALISTAS
+    public static Analista[] ordenamientoAnalistas(){
+        //CREAMOS UN ARREGLO PARA EL ORDENAMIENTO
+        Analista[] arreglo_analistas = new Analista[analistas.size()];
+        //INSERTAMOS DATOS AL ARREGLO
+        for (int i = 0; i < arreglo_analistas.length; i++) {
+            arreglo_analistas[i] = analistas.get(i);
+        }
+        try{
+            for (int i = 1; i < arreglo_analistas.length; i++) {
+                Analista aux =  arreglo_analistas[i];
+                int j = i - 1;
+                while((j>=0) && (aux.getCantidad_analisis()> arreglo_analistas[j].getCantidad_analisis())){
+                    arreglo_analistas[j+1] = arreglo_analistas[j];
+                    j--;
+                }
+                arreglo_analistas[j+1] = aux;
+            }
+            return arreglo_analistas;
+        }catch(Exception e){
+            return arreglo_analistas;
+        }
+    }
+    public static void crearArchivo(int[][] matriz, String codigo, String nombre_carpeta, String tipo){
+        FileWriter fichero = null;
+        PrintWriter pw = null;
+        try{
+            //AGREGAMOS EL NOMBRE DEL FICHERO
+            fichero = new FileWriter(nombre_carpeta+"/"+tipo+"_"+codigo+".html");
+            pw = new PrintWriter(fichero);
+            
+            //ESCRIBIMOS EL ARCHIVO
+            pw.println("<html>");
+            pw.println("    <head>");
+            pw.println("        <title>"+tipo+" " + codigo +" </title>");
+            pw.println("    </head>");
+            pw.println("    <body>");
+            pw.println("<style>\n" +
+"        table, th, td {\n" +
+"          border:1px solid black;\n" +
+"        }\n" +
+"    </style>");
+            pw.println("        <h1>"+tipo+" " + codigo +" </h1>");
+            pw.println("        <table>");
+            for (int i = 0; i < matriz.length; i++) {
+                pw.println("            <tr>");
+                for (int j = 0; j < matriz[i].length; j++) {
+                    pw.println("                <td> "+ matriz[i][j] + "</td>");
+                }
+                pw.println("            </tr>");
+            }
+            pw.println("        </table>");
+            pw.println("    </body>");
+            pw.println("</html>");
+            System.out.println("Reporte generado exitosamente!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+           try {
+           // Nuevamente aprovechamos el finally para 
+           // asegurarnos que se cierra el fichero.
+           if (null != fichero)
+              fichero.close();
+           } catch (Exception e2) {
+              e2.printStackTrace();
+           }
+        }
     }
 }
