@@ -23,6 +23,7 @@ import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import java.lang.Math;
 import javax.swing.JLabel;
+import java.util.Scanner;
 
 
 public class Clase5 {
@@ -38,9 +39,35 @@ public class Clase5 {
         CONTROLADOR = LÓGICA QUE CONECTA LAS CLASES CON EL GUI
         */
        //VentanaAdmin va = new VentanaAdmin();
-       VLogin vl = new VLogin();
+       //VLogin vl = new VLogin();
        //Ventana v = new Ventana();
        //v.setVisible(true);
+       
+       /*
+       SIMULANDO LA ASIGNACIÓN DE DOCUMENTOS A ANALISTAS
+       Scanner leer = new Scanner(System.in);
+       Analista a = new Analista("A-00","Rodri","M","1234");
+       analistas.add(a);
+       Documento d = new Documento("D-00","Texto Doc 1","Ingresado");
+       int[][] matriz_ejemplo = {{2,3},{4,5}};
+       d.setTexto(matriz_ejemplo);
+       documentos.add(d);
+       
+       System.out.println("Ingresa el codigo del analista");
+       String cod_analista = leer.next();
+       System.out.println("Ingresa el codigo del documento");
+       String cod_doc = leer.next();
+        
+       Analista analista = obtenerAnalista(cod_analista);
+       Documento doc = obtenerDocumento(cod_doc);
+       actualizarDocumento(cod_doc, "En proceso");
+       analista.setDocumento_asignado(doc);
+       
+       //esto es para la parte del investigador y se realiza el algoritmo
+       int[][] temporal = analista.getDocumento_asignado().getTexto();
+       int[][] temporal2 = obtenerCoincidencia("C-01").getTexto();
+       //proyecto.realizarAlgoritmo(temporal1,temporal2);
+       */
     }
     
     //-------------------- ANALISTAS ---------------------------------------
