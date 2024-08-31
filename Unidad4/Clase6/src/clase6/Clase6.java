@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package clase5;
+package clase6;
 
 /**
  *
@@ -26,12 +26,23 @@ import javax.swing.JLabel;
 import java.util.Scanner;
 //import GUI2.Ventana;
 
+//SERIALIZACION
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
 
-public class Clase5 {
+
+public class Clase6 {
 
     public static LinkedList<Analista> analistas = new LinkedList<Analista>();
     public static LinkedList<Coincidencia> coincidencias = new LinkedList<Coincidencia>();
     public static LinkedList<Documento> documentos = new LinkedList<Documento>();
+    
+    //VARIABLES PARA SERIALIZACIÓN
+    //ANALISTAS
+    public static ObjectInputStream oisa;
+    public static ObjectOutputStream oosa;
     
     public static void main(String[] args) {
        /*
@@ -40,42 +51,77 @@ public class Clase5 {
         CONTROLADOR = LÓGICA QUE CONECTA LAS CLASES CON EL GUI
         */
 
-       //VentanaAdmin va = new VentanaAdmin();
-       //VLogin vl = new VLogin();
-       //Ventana v = new Ventana();
-       //v.setVisible(true);
+       //CARGAMOS EL ARCHIVO SERIALIZADO DE ANALISTAS
+       analistas = (LinkedList<Analista>) DeserializarAnalistas();
+       documentos = (LinkedList<Documento>) DeserializarDocumentos();
+       if(analistas == null){
+           System.out.println("NO HAY ANALISTAS");
+           analistas = new LinkedList<Analista>();
+       }
+       if(documentos == null){
+           System.out.println("NO HAY DOCUMENTOS");
+           documentos = new LinkedList<Documento>();
+       }
+       VLogin vl = new VLogin();
        
-       /*
-       SIMULANDO LA ASIGNACIÓN DE DOCUMENTOS A ANALISTAS
-       Scanner leer = new Scanner(System.in);
-       Analista a = new Analista("A-00","Rodri","M","1234");
-       analistas.add(a);
-       Documento d = new Documento("D-00","Texto Doc 1","Ingresado");
-       int[][] matriz_ejemplo = {{2,3},{4,5}};
-       d.setTexto(matriz_ejemplo);
-       documentos.add(d);
-       
-       System.out.println("Ingresa el codigo del analista");
-       String cod_analista = leer.next();
-       System.out.println("Ingresa el codigo del documento");
-       String cod_doc = leer.next();
-        
-       Analista analista = obtenerAnalista(cod_analista);
-       Documento doc = obtenerDocumento(cod_doc);
-       actualizarDocumento(cod_doc, "En proceso");
-       analista.setDocumento_asignado(doc);
-       
-       //esto es para la parte del investigador y se realiza el algoritmo
-       int[][] temporal = analista.getDocumento_asignado().getTexto();
-       int[][] temporal2 = obtenerCoincidencia("C-01").getTexto();
-       //proyecto.realizarAlgoritmo(temporal1,temporal2);
-       */
+    }
+    
+    //--------------------- SERIALIZACION ----------------------------------
+    
+    //1. METODO PARA CREAR EL ARCHIVO BINARIO PARA LA SERIALIZACIÓN DE ANALISTAS Y SERIALIZARLOS
+    public static void SerializarAnalistas(){
+        try{
+            oosa = new ObjectOutputStream(new FileOutputStream("Serializados/Analistas.bin"));
+            oosa.writeObject(analistas);
+            oosa.close();
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+    
+    //2. METODO PARA DES-SERIALIZAR EL ARCHIVO BINARIO DE ANALISTAS
+    public static Object DeserializarAnalistas(){
+        try{
+            oisa = new ObjectInputStream(new FileInputStream("Serializados/Analistas.bin"));
+            LinkedList<Analista> analistastemp = (LinkedList<Analista>) oisa.readObject();
+            oisa.close();
+            return analistastemp;
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+    
+    //DOCUMENTOS
+    //1. METODO PARA CREAR EL ARCHIVO BINARIO PARA LA SERIALIZACIÓN DE ANALISTAS Y SERIALIZARLOS
+    public static void SerializarDocumentos(){
+        try{
+            oosa = new ObjectOutputStream(new FileOutputStream("Serializados/Documentos.bin"));
+            oosa.writeObject(documentos);
+            oosa.close();
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+    
+    //2. METODO PARA DES-SERIALIZAR EL ARCHIVO BINARIO DE ANALISTAS
+    public static Object DeserializarDocumentos(){
+        try{
+            oisa = new ObjectInputStream(new FileInputStream("Serializados/Documentos.bin"));
+            LinkedList<Documento> analistastemp = (LinkedList<Documento>) oisa.readObject();
+            oisa.close();
+            return analistastemp;
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }
+        return null;
     }
     
     //-------------------- ANALISTAS ---------------------------------------
     //CREAR
     public static void añadirAnalista(Analista analista){
         analistas.add(analista);
+        SerializarAnalistas();
     }
     
     //OBTENER EL OBJETO
@@ -97,6 +143,7 @@ public class Clase5 {
                 analistas.get(i).setGenero(genero);
             }
         }
+        SerializarAnalistas();
     }
     
     //ELIMINAR
@@ -106,6 +153,7 @@ public class Clase5 {
                 analistas.remove(i);
             }
         }
+        SerializarAnalistas();
     }
     
     //RETORNAR UNA MATRIZ DE OBJETOS
@@ -124,6 +172,7 @@ public class Clase5 {
     //CREAR
     public static void añadirDocumento(Documento documento){
         documentos.add(documento);
+        SerializarDocumentos();
     }
     
     //OBTENER EL OBJETO
@@ -143,6 +192,7 @@ public class Clase5 {
                 documentos.get(i).setEstado(estado);
             }
         }
+        SerializarDocumentos();
     }
     
     //RETORNAR UNA MATRIZ DE OBJETOS
