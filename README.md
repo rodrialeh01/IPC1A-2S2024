@@ -22,7 +22,7 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
 ### Unidades del Laboratorio
 - [`☕️ Unidad 1:`](./Unidad1) Introducción a Java
   - [⭐️ Clase 1](./Unidad1/Clase01/)
-    - [🌟 Clase Extra 1](./Unidad1)
+  - [🌟 Clase Extra 1](./Unidad1)
   - [⭐️ Clase 2](./Unidad1/Clase02/)
 - [`😼 Unidad 2:`](./Unidad2) Versionamiento
   - [⭐️ Clase 3](./Unidad2/)
@@ -36,6 +36,12 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
   - [⭐️ Clase 5](./Unidad5/Clase5/)
   - [🌟 Clase Extra 3](./Unidad5/Clase5/)
   - [🌟 Clase Extra 4](./Unidad5/Extra4/)
+- [`🧵 Unidad 6:`](./Unidad6) Concurrencia y Paralelismo
+  - [🌟 Clase Extra 5](./Unidad6/Extra5/)
+- [`🌎 Unidad 7:`](./Unidad7) Programación Web
+  - [⭐️ Clase 8](./Unidad7/Clase8/)
+- [`🧠 Unidad 9:`](./Unidad9) Modelo Vista Controlador
+  - [⭐️ Clase 7](./Unidad9/Clase7/)
 
 ## 👤Contacto
 
