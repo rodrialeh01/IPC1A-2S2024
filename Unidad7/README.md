@@ -27,7 +27,7 @@ En esta clase se abordaron los temas de introducción a la programación web, em
 
 - [Creando mi primera API con NodeJS, Express y JS](./API-JS.md)
 
-- [Creando mi primera API con NodeJS, Express y TS](./API-TS.md.md)
+- [Creando mi primera API con NodeJS, Express y TS](./API-TS.md)
 
 ### 🎥 Grabación de la Clase
 
