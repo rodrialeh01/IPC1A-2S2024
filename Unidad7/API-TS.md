@@ -125,7 +125,6 @@ Este archivo contiene conceptos que te pueden ayudar a crear tu primera API con 
         "name": "api",
         "version": "1.0.0",
         "main": "index.js",
-        "type":"module",
         "scripts": {
             "start": "ts-node src/index.ts",
             "build": "tsc",
