@@ -39,7 +39,7 @@ Estructura:
 
 ---
 
-## Clase 5: Interfaz Gráfica usando AWT y Swing
+## ⭐️ Clase 5: Interfaz Gráfica usando AWT y Swing
 
 _Fecha: 23-08-2024_
 

@@ -1,6 +1,6 @@
 # 👾 Unidad 4: Programación Orientada a Objetos
 
-## Clase 4: Introductión a la Programación Orientada a Objetos
+## ⭐️ Clase 4: Introductión a la Programación Orientada a Objetos
 
 _Fecha: 16-08-2024_
 
@@ -46,7 +46,7 @@ Lo puedes encontrar en:  [Clase4/src/clase4/Clase4](./Clase4/src/clase4/Clase4.j
 
 ---
 
-## Clase 6: Diagrama de Clases UML y Serialización
+## ⭐️ Clase 6: Diagrama de Clases UML y Serialización
 
 _Fecha: 30-08-2024_
 
