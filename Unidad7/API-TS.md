@@ -118,13 +118,7 @@ Este archivo contiene conceptos que te pueden ayudar a crear tu primera API con 
     }
     ```
 
-14. En el json, arriba de los scripts añade lo siguiente:
-
-    ```json
-    "type": "module",
-    ```
-
-15. Al final te tiene que quedar asi tu archivo `package.json`:
+14. Al final te tiene que quedar asi tu archivo `package.json`:
 
     ```json
     {
@@ -145,7 +139,16 @@ Este archivo contiene conceptos que te pueden ayudar a crear tu primera API con 
         "description": ""
     }
     ```
+15. Crea un archivo llamado `nodemon.json` que tenga lo siguiente:
 
+    ```json
+    {
+        "watch": ["src"],
+        "ext": "ts",
+        "ignore": ["dist"],
+        "exec": "ts-node src/index.ts"
+    }
+    ```
 
 16. En `index.ts` importa tus librerias instaladas:
 
