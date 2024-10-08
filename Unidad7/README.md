@@ -57,4 +57,4 @@ En esta clase se abordó un repaso de los conceptos de Frontend con ReactJS.
 
 ### 💻 Ejemplo de la Clase
 
-Lo puedes encontrar en:  []()
+Lo puedes encontrar en:  [Clase Extra 6](./Extra6/)
