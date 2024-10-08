@@ -53,7 +53,7 @@ En esta clase se abordó un repaso de los conceptos de Frontend con ReactJS.
 
 ### 🎥 Grabación de la Clase
 
-**Clase Extra 6**: []()
+**Clase Extra 6**: [https://drive.google.com/file/d/1-xImtLBkQK-PnT3Oy9jsTzDos0cnUeCu/view](https://drive.google.com/file/d/1-xImtLBkQK-PnT3Oy9jsTzDos0cnUeCu/view)
 
 ### 💻 Ejemplo de la Clase
 
