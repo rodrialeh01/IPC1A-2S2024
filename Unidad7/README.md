@@ -37,7 +37,7 @@ En esta clase se abordaron los temas de introducción a la programación web, em
 
 Lo puedes encontrar en:  [Clase8](./Clase8/)
 
-## ⭐️ Clase Extra 6: Repaso de conceptos de Frontend
+## 🌟 Clase Extra 6: Repaso de conceptos de Frontend
 
 _Fecha: 07-10-2024_
 
@@ -58,3 +58,31 @@ En esta clase se abordó un repaso de los conceptos de Frontend con ReactJS.
 ### 💻 Ejemplo de la Clase
 
 Lo puedes encontrar en:  [Clase Extra 6](./Extra6/)
+
+## ⭐️ Clase 9: Introducción a conceptos de Frontend y continuación de React
+
+_Fecha: 11-10-2024_
+
+En esta clase se abordaron los temas de introducción a la programación web Frontend, empezando desde HTML, CSS y JS, además de conceptos de React.
+
+### 📖 Contenido:
+
+- Frontend
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+    - Hooks
+        - De estado
+        - De efecto
+        - De referencia
+        - De performance
+        - Personalizados
+
+### 🎥 Grabación de la Clase
+
+**Clase 9**: []()
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase9](./Clase9/)
