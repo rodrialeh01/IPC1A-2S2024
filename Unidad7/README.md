@@ -81,7 +81,7 @@ En esta clase se abordaron los temas de introducción a la programación web Fro
 
 ### 🎥 Grabación de la Clase
 
-**Clase 9**: []()
+**Clase 9**: [https://drive.google.com/file/d/1zyJJcjU9eyab5oXP9ZtyMgRWD2w9o5Xl/view?usp=drive_link](https://drive.google.com/file/d/1zyJJcjU9eyab5oXP9ZtyMgRWD2w9o5Xl/view?usp=drive_link)
 
 ### 💻 Ejemplo de la Clase
 
