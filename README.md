@@ -41,6 +41,8 @@ Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si q
 - [`🌎 Unidad 7:`](./Unidad7) Programación Web
   - [⭐️ Clase 8](./Unidad7/Clase8/)
   - [🌟 Clase Extra 6](./Unidad6/Extra6/)
+  - [⭐️ Clase 9](./Unidad7/Clase9/)
+  - [⭐️ Clase 10](./Unidad7/Clase10/)
 - [`🧠 Unidad 9:`](./Unidad9) Modelo Vista Controlador
   - [⭐️ Clase 7](./Unidad9/Clase7/)
 

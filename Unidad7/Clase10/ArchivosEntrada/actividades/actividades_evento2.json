@@ -1,0 +1,154 @@
+[
+    {
+        "nombre": "Conexión Profesional",
+        "descripcion": "Encuentro para fomentar la colaboración entre expertos.",
+        "organizador": "ORG-001",
+        "lugar": "Sala A",
+        "hora": "10:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 85},
+            {"codigo": 202000028, "valoracion": 90},
+            {"codigo": 201900039, "valoracion": 88},
+            {"codigo": 202000006, "valoracion": 80},
+            {"codigo": 201900021, "valoracion": 92},
+            {"codigo": 202000050, "valoracion": 76},
+            {"codigo": 201900003, "valoracion": 82},
+            {"codigo": 202000012, "valoracion": 78},
+            {"codigo": 201900045, "valoracion": 90},
+            {"codigo": 202000038, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Taller de Comunicación",
+        "descripcion": "Desarrollo de habilidades comunicativas.",
+        "organizador": "ORG-001",
+        "lugar": "Sala B",
+        "hora": "11:30",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 88},
+            {"codigo": 202000028, "valoracion": 92},
+            {"codigo": 201900039, "valoracion": 85},
+            {"codigo": 202000006, "valoracion": 80},
+            {"codigo": 201900021, "valoracion": 90},
+            {"codigo": 202000050, "valoracion": 75},
+            {"codigo": 201900003, "valoracion": 70},
+            {"codigo": 202000012, "valoracion": 95},
+            {"codigo": 201900045, "valoracion": 82},
+            {"codigo": 202000038, "valoracion": 78}
+        ]
+    },
+    {
+        "nombre": "Seminario Tecnológico",
+        "descripcion": "Exploración de las últimas tendencias en tecnología.",
+        "organizador": "ORG-001",
+        "lugar": "Sala C",
+        "hora": "14:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 85},
+            {"codigo": 202000028, "valoracion": 90},
+            {"codigo": 201900039, "valoracion": 88},
+            {"codigo": 202000006, "valoracion": 80},
+            {"codigo": 201900021, "valoracion": 95},
+            {"codigo": 202000050, "valoracion": 76},
+            {"codigo": 201900003, "valoracion": 82},
+            {"codigo": 202000012, "valoracion": 78},
+            {"codigo": 201900045, "valoracion": 90},
+            {"codigo": 202000038, "valoracion": 85}
+        ]
+    },
+    {
+        "nombre": "Foro de Innovación",
+        "descripcion": "Debate sobre las innovaciones en el sector.",
+        "organizador": "ORG-001",
+        "lugar": "Sala D",
+        "hora": "16:30",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 80},
+            {"codigo": 202000028, "valoracion": 92},
+            {"codigo": 201900039, "valoracion": 85},
+            {"codigo": 202000006, "valoracion": 88},
+            {"codigo": 201900021, "valoracion": 90},
+            {"codigo": 202000050, "valoracion": 76},
+            {"codigo": 201900003, "valoracion": 95},
+            {"codigo": 202000012, "valoracion": 82},
+            {"codigo": 201900045, "valoracion": 78},
+            {"codigo": 202000038, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Cena de Networking",
+        "descripcion": "Cierre del evento con una cena para establecer contactos.",
+        "organizador": "ORG-001",
+        "lugar": "Restaurante El Buen Sabor",
+        "hora": "19:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 88},
+            {"codigo": 202000028, "valoracion": 90},
+            {"codigo": 201900039, "valoracion": 80},
+            {"codigo": 202000006, "valoracion": 85},
+            {"codigo": 201900021, "valoracion": 92},
+            {"codigo": 202000050, "valoracion": 76},
+            {"codigo": 201900003, "valoracion": 82},
+            {"codigo": 202000012, "valoracion": 78},
+            {"codigo": 201900045, "valoracion": 90},
+            {"codigo": 202000038, "valoracion": 85}
+        ]
+    },
+    {
+        "nombre": "Taller de Creatividad",
+        "descripcion": "Fomento de la creatividad en el trabajo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala E",
+        "hora": "09:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 85},
+            {"codigo": 202000028, "valoracion": 90},
+            {"codigo": 201900039, "valoracion": 88},
+            {"codigo": 202000006, "valoracion": 80},
+            {"codigo": 201900021, "valoracion": 92},
+            {"codigo": 202000050, "valoracion": 76},
+            {"codigo": 201900003, "valoracion": 82},
+            {"codigo": 202000012, "valoracion": 78},
+            {"codigo": 201900045, "valoracion": 90},
+            {"codigo": 202000038, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Mesa Redonda sobre Liderazgo",
+        "descripcion": "Discusión sobre las mejores prácticas en liderazgo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala F",
+        "hora": "12:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 90},
+            {"codigo": 202000028, "valoracion": 85},
+            {"codigo": 201900039, "valoracion": 88},
+            {"codigo": 202000006, "valoracion": 82},
+            {"codigo": 201900021, "valoracion": 91},
+            {"codigo": 202000050, "valoracion": 79},
+            {"codigo": 201900003, "valoracion": 84},
+            {"codigo": 202000012, "valoracion": 76},
+            {"codigo": 201900045, "valoracion": 89},
+            {"codigo": 202000038, "valoracion": 88}
+        ]
+    },
+    {
+        "nombre": "Café de Networking",
+        "descripcion": "Oportunidad para establecer contactos en un ambiente informal.",
+        "organizador": "ORG-001",
+        "lugar": "Terraza",
+        "hora": "17:00",
+        "valoraciones": [
+            {"codigo": 201900013, "valoracion": 88},
+            {"codigo": 202000028, "valoracion": 92},
+            {"codigo": 201900039, "valoracion": 85},
+            {"codigo": 202000006, "valoracion": 80},
+            {"codigo": 201900021, "valoracion": 90},
+            {"codigo": 202000050, "valoracion": 75},
+            {"codigo": 201900003, "valoracion": 82},
+            {"codigo": 202000012, "valoracion": 78},
+            {"codigo": 201900045, "valoracion": 91},
+            {"codigo": 202000038, "valoracion": 86}
+        ]
+    }
+]

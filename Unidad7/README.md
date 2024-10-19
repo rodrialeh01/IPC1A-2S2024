@@ -86,3 +86,24 @@ En esta clase se abordaron los temas de introducción a la programación web Fro
 ### 💻 Ejemplo de la Clase
 
 Lo puedes encontrar en:  [Clase9](./Clase9/)
+
+## ⭐️ Clase 10: Continuación de Frontend con React
+
+_Fecha: 18-10-2024_
+
+En esta clase se continuo con React, impartiendo los temas de Base64, chartJS y XLSX
+
+### 📖 Contenido:
+
+- Base64
+- ChartJS
+- XLSX
+- Ejemplo práctico
+
+### 🎥 Grabación de la Clase
+
+**Clase 10**: []()
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase10](./Clase10/)

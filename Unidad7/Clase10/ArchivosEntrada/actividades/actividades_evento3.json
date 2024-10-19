@@ -1,0 +1,192 @@
+[
+    {
+        "nombre": "Innovación en el Trabajo",
+        "descripcion": "Exploración de nuevas metodologías de trabajo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala G",
+        "hora": "08:30",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 90},
+            {"codigo": 201900029, "valoracion": 85},
+            {"codigo": 202000004, "valoracion": 88},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 92},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 90},
+            {"codigo": 201900027, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Desarrollo de Habilidades",
+        "descripcion": "Taller práctico para mejorar habilidades personales.",
+        "organizador": "ORG-001",
+        "lugar": "Sala H",
+        "hora": "10:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 88},
+            {"codigo": 201900029, "valoracion": 92},
+            {"codigo": 202000004, "valoracion": 85},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 90},
+            {"codigo": 201900011, "valoracion": 75},
+            {"codigo": 202000048, "valoracion": 70},
+            {"codigo": 201900001, "valoracion": 95},
+            {"codigo": 202000030, "valoracion": 82},
+            {"codigo": 201900027, "valoracion": 78}
+        ]
+    },
+    {
+        "nombre": "Estrategias de Marketing",
+        "descripcion": "Seminario sobre las últimas tendencias en marketing.",
+        "organizador": "ORG-001",
+        "lugar": "Sala I",
+        "hora": "11:30",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 85},
+            {"codigo": 201900029, "valoracion": 90},
+            {"codigo": 202000004, "valoracion": 88},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 95},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 90},
+            {"codigo": 201900027, "valoracion": 85}
+        ]
+    },
+    {
+        "nombre": "Liderazgo Efectivo",
+        "descripcion": "Foro sobre las mejores prácticas en liderazgo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala J",
+        "hora": "14:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 80},
+            {"codigo": 201900029, "valoracion": 92},
+            {"codigo": 202000004, "valoracion": 85},
+            {"codigo": 201900017, "valoracion": 88},
+            {"codigo": 202000022, "valoracion": 90},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 95},
+            {"codigo": 201900001, "valoracion": 82},
+            {"codigo": 202000030, "valoracion": 78},
+            {"codigo": 201900027, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Networking Internacional",
+        "descripcion": "Oportunidades de conexión con profesionales de todo el mundo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala K",
+        "hora": "16:30",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 88},
+            {"codigo": 201900029, "valoracion": 90},
+            {"codigo": 202000004, "valoracion": 80},
+            {"codigo": 201900017, "valoracion": 85},
+            {"codigo": 202000022, "valoracion": 92},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 90},
+            {"codigo": 201900027, "valoracion": 85}
+        ]
+    },
+    {
+        "nombre": "Creatividad en Acción",
+        "descripcion": "Taller para fomentar la creatividad en el trabajo.",
+        "organizador": "ORG-001",
+        "lugar": "Sala L",
+        "hora": "09:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 85},
+            {"codigo": 201900029, "valoracion": 90},
+            {"codigo": 202000004, "valoracion": 88},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 92},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 90},
+            {"codigo": 201900027, "valoracion": 87}
+        ]
+    },
+    {
+        "nombre": "Tendencias Tecnológicas",
+        "descripcion": "Seminario sobre las últimas innovaciones tecnológicas.",
+        "organizador": "ORG-001",
+        "lugar": "Sala M",
+        "hora": "12:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 90},
+            {"codigo": 201900029, "valoracion": 85},
+            {"codigo": 202000004, "valoracion": 88},
+            {"codigo": 201900017, "valoracion": 82},
+            {"codigo": 202000022, "valoracion": 91},
+            {"codigo": 201900011, "valoracion": 79},
+            {"codigo": 202000048, "valoracion": 84},
+            {"codigo": 201900001, "valoracion": 76},
+            {"codigo": 202000030, "valoracion": 89},
+            {"codigo": 201900027, "valoracion": 88}
+        ]
+    },
+    {
+        "nombre": "Mesa Redonda de Expertos",
+        "descripcion": "Discusión sobre las mejores prácticas en la industria.",
+        "organizador": "ORG-001",
+        "lugar": "Sala N",
+        "hora": "13:30",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 88},
+            {"codigo": 201900029, "valoracion": 92},
+            {"codigo": 202000004, "valoracion": 85},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 90},
+            {"codigo": 201900011, "valoracion": 75},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 91},
+            {"codigo": 201900027, "valoracion": 86}
+        ]
+    },
+    {
+        "nombre": "Café de Innovación",
+        "descripcion": "Encuentro informal para compartir ideas innovadoras.",
+        "organizador": "ORG-001",
+        "lugar": "Terraza",
+        "hora": "15:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 88},
+            {"codigo": 201900029, "valoracion": 92},
+            {"codigo": 202000004, "valoracion": 85},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 90},
+            {"codigo": 201900011, "valoracion": 75},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 91},
+            {"codigo": 201900027, "valoracion": 86}
+        ]
+    },
+    {
+        "nombre": "Cierre del Evento",
+        "descripcion": "Reflexiones y aprendizajes del evento.",
+        "organizador": "ORG-001",
+        "lugar": "Auditorio Principal",
+        "hora": "18:00",
+        "valoraciones": [
+            {"codigo": 202000016, "valoracion": 90},
+            {"codigo": 201900029, "valoracion": 85},
+            {"codigo": 202000004, "valoracion": 88},
+            {"codigo": 201900017, "valoracion": 80},
+            {"codigo": 202000022, "valoracion": 92},
+            {"codigo": 201900011, "valoracion": 76},
+            {"codigo": 202000048, "valoracion": 82},
+            {"codigo": 201900001, "valoracion": 78},
+            {"codigo": 202000030, "valoracion": 90},
+            {"codigo": 201900027, "valoracion": 87}
+        ]
+    }
+]
