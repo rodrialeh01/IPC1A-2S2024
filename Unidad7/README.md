@@ -102,7 +102,7 @@ En esta clase se continuo con React, impartiendo los temas de Base64, chartJS y 
 
 ### 🎥 Grabación de la Clase
 
-**Clase 10**: []()
+**Clase 10**: [https://drive.google.com/file/d/1Gz0Nkj_9LR5Wq1_cozhjR4OoXCLtVbiv/view?usp=sharing](https://drive.google.com/file/d/1Gz0Nkj_9LR5Wq1_cozhjR4OoXCLtVbiv/view?usp=sharing)
 
 ### 💻 Ejemplo de la Clase
 
