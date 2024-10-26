@@ -1,0 +1,247 @@
+[
+    {
+        "nombre": "Actividad 1",
+        "descripcion": "Conexión y colaboración entre profesionales del sector.",
+        "organizador": "ECYS-P01",
+        "lugar": "Sala A",
+        "hora": "10:00",
+        "valoraciones": [
+            {
+                "codigo": 202000018,
+                "valoracion": 95
+            },
+            {
+                "codigo": 201900007,
+                "valoracion": 88
+            },
+            {
+                "codigo": 202000034,
+                "valoracion": 76
+            },
+            {
+                "codigo": 201900025,
+                "valoracion": 82
+            },
+            {
+                "codigo": 202000046,
+                "valoracion": 90
+            },
+            {
+                "codigo": 201900019,
+                "valoracion": 85
+            },
+            {
+                "codigo": 202000002,
+                "valoracion": 78
+            },
+            {
+                "codigo": 201900041,
+                "valoracion": 92
+            },
+            {
+                "codigo": 202000010,
+                "valoracion": 80
+            },
+            {
+                "codigo": 201900055,
+                "valoracion": 87
+            }
+        ]
+    },
+    {
+        "nombre": "Actividad 2",
+        "descripcion": "Taller de habilidades de comunicación.",
+        "organizador": "ECYS-P01",
+        "lugar": "Sala B",
+        "hora": "11:30",
+        "valoraciones": [
+            {
+                "codigo": 202000018,
+                "valoracion": 85
+            },
+            {
+                "codigo": 201900007,
+                "valoracion": 90
+            },
+            {
+                "codigo": 202000034,
+                "valoracion": 80
+            },
+            {
+                "codigo": 201900025,
+                "valoracion": 75
+            },
+            {
+                "codigo": 202000046,
+                "valoracion": 88
+            },
+            {
+                "codigo": 201900019,
+                "valoracion": 92
+            },
+            {
+                "codigo": 202000002,
+                "valoracion": 70
+            },
+            {
+                "codigo": 201900041,
+                "valoracion": 95
+            },
+            {
+                "codigo": 202000010,
+                "valoracion": 82
+            },
+            {
+                "codigo": 201900055,
+                "valoracion": 78
+            }
+        ]
+    },
+    {
+        "nombre": "Actividad 3",
+        "descripcion": "Seminario sobre tendencias tecnológicas.",
+        "organizador": "ECYS-P01",
+        "lugar": "Sala C",
+        "hora": "14:00",
+        "valoraciones": [
+            {
+                "codigo": 202000018,
+                "valoracion": 90
+            },
+            {
+                "codigo": 201900007,
+                "valoracion": 85
+            },
+            {
+                "codigo": 202000034,
+                "valoracion": 88
+            },
+            {
+                "codigo": 201900025,
+                "valoracion": 80
+            },
+            {
+                "codigo": 202000046,
+                "valoracion": 95
+            },
+            {
+                "codigo": 201900019,
+                "valoracion": 76
+            },
+            {
+                "codigo": 202000002,
+                "valoracion": 82
+            },
+            {
+                "codigo": 201900041,
+                "valoracion": 78
+            },
+            {
+                "codigo": 202000010,
+                "valoracion": 90
+            },
+            {
+                "codigo": 201900055,
+                "valoracion": 85
+            }
+        ]
+    },
+    {
+        "nombre": "Actividad 4",
+        "descripcion": "Foro de discusión sobre innovación.",
+        "organizador": "ECYS-P01",
+        "lugar": "Sala D",
+        "hora": "16:30",
+        "valoraciones": [
+            {
+                "codigo": 202000018,
+                "valoracion": 78
+            },
+            {
+                "codigo": 201900007,
+                "valoracion": 92
+            },
+            {
+                "codigo": 202000034,
+                "valoracion": 85
+            },
+            {
+                "codigo": 201900025,
+                "valoracion": 88
+            },
+            {
+                "codigo": 202000046,
+                "valoracion": 90
+            },
+            {
+                "codigo": 201900019,
+                "valoracion": 80
+            },
+            {
+                "codigo": 202000002,
+                "valoracion": 95
+            },
+            {
+                "codigo": 201900041,
+                "valoracion": 82
+            },
+            {
+                "codigo": 202000010,
+                "valoracion": 76
+            },
+            {
+                "codigo": 201900055,
+                "valoracion": 87
+            }
+        ]
+    },
+    {
+        "nombre": "Actividad 5",
+        "descripcion": "Cierre del evento con una cena de networking.",
+        "organizador": "ECYS-P01",
+        "lugar": "Restaurante El Buen Sabor",
+        "hora": "19:00",
+        "valoraciones": [
+            {
+                "codigo": 202000018,
+                "valoracion": 88
+            },
+            {
+                "codigo": 201900007,
+                "valoracion": 90
+            },
+            {
+                "codigo": 202000034,
+                "valoracion": 80
+            },
+            {
+                "codigo": 201900025,
+                "valoracion": 85
+            },
+            {
+                "codigo": 202000046,
+                "valoracion": 92
+            },
+            {
+                "codigo": 201900019,
+                "valoracion": 76
+            },
+            {
+                "codigo": 202000002,
+                "valoracion": 82
+            },
+            {
+                "codigo": 201900041,
+                "valoracion": 78
+            },
+            {
+                "codigo": 202000010,
+                "valoracion": 90
+            },
+            {
+                "codigo": 201900055,
+                "valoracion": 85
+            }
+        ]
+    }
+]
